@@ -2,6 +2,7 @@ from collections import Counter
 from responses import responses, blank_spot
 from user_functions import preprocess, compare_overlap, pos_tag, extract_nouns, compute_similarity
 import spacy
+import os
 word2vec = spacy.load('en')
 
 exit_commands = ("q")
