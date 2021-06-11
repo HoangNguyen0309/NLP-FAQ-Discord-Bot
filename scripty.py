@@ -118,5 +118,5 @@ class MyClient(discord.Client):
             await message.channel.send(bruh)
 
 client = MyClient()
-client.run('ODQ0NTQzOTk0OTc2MjcyNDM1.YKT84w.MwhI4fdbdPTu7SrswPjzvmLc3fo') 
+client.run([[DISCORD TOKEN]]) 
 
